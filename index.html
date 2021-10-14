@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./css/common.css"/>	
+		<link rel="stylesheet" type="text/css" href="./css/topBar.css"/>
+		<link rel="stylesheet" type="text/css" href="css/searchArea.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/main1.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/main2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main2-slide.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main2-slide2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/goods.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sidebar.css"/>
+	</head>
+	<body>
+		<div id="outer">
+			<!-- topBar开始 长度100%-->
+			<div class="topBar">
+				<!-- topBar中间内容区域 -->
+				<div class="topBar-content">
+					<ul class="topBar-content-l">
+						<li class="area-dropdown">
+								<span>中国大陆</span>
+								<img src="img/topBar/triangle.svg" class="triangle-icon">													
+							<div class="area-dropdown-content">
+                           
+								<ul> 
+									<li>全球</li>
+									<li>中国大陆</li>
+									<li>中国香港</li>
+									<li>中国台湾</li>
+									<li>中国澳门</li>
+									<li>韩国</li>
+									<li>马来西亚</li>
+									<li>澳大利亚</li>
+									<li>新加坡</li>
+									<li>新西兰</li>
+									<li>意大利</li>
+									<li>德国</li>
+								</ul>
+							</div>
+						</li>									
+						<li class="loginTip">
+							<a href="javascript:;">亲，请登录</a>
+						</li>
+						<li class="freeLogin">
+							<a href="javascript:;">免费注册</a>
+						</li>
+						<li class="phoneTb">
+							<a href="javascript:;">手机逛淘宝</a>
+						</li>
+					</ul>
+						
+					<ul class="topBar-content-r">
+						<li class="mytb-dropdown">
+							<span>我的淘宝</span>
+							<img src="img/topBar/triangle.svg" class="triangle-icon" >										
+							<div class="mytb-dropdown-content">
+								<ul>
+									<li>已买到的宝贝</li>
+									<li>我的足迹</li>
+								</ul>
+							</div>	
+						</li>
+						<li class="shopcart">
+							<img src="img/topBar/shopcart.svg" >
+							<a href="javascript:;">购物车</a>
+							<img src="img/topBar/triangle.svg" class="triangle-icon">
+						</li>
+						<li class="fav" id="fav-hover">
+							<img src="img/topBar/fav.svg" id="fav-hover-img" >
+							<a href="javascript:;" id="fav-hover-word">收藏夹</a>
+							<img src="img/topBar/triangle.svg" class="triangle-icon">
+						</li>
+					
+						<li class="freeStore">
+							<a href="javascript:;">免费开店</a>
+						</li>
+						<li class="shuXian">
+							<span>|</span>
+						</li>
+						
+						<li class="qianNiu">
+							<a href="javascript:;">千牛卖家中心</a>
+							<img src="img/topBar/triangle.svg" class="triangle-icon">
+						</li>
+						<li class="service-dropdown">
+							<span>联系客服</span>
+							<img src="img/topBar/triangle.svg" class="triangle-icon" >										
+							<div class="service-dropdown-content">
+								<ul>
+									<li>消费者客服</li>
+									<li>商家服务大厅</li>
+								</ul>
+							</div>	
+						</li>
+						<li class="netNav-dropdown">
+							<img src="img/topBar/netNav.svg"  class="netNav-icon">
+							<span>商品分类</span>
+							<img src="img/topBar/triangle.svg" class="triangle-icon" >										
+							<div class="netNav-dropdown-content">
+							<!--	<ul>
+									<li>已买到的宝贝</li>
+									<li>我的足迹</li>
+								</ul> !-->
+						<!--	<div class="area-1">
+									<div class="themeM">
+										<h4>主题市场</h4>
+									</div>
+									<div class="theme-content">  
+										<ul>
+										<li style="width: 24%;" class="li-hot">
+											<a href="#">
+												女孩
+												<i class="hot"></i>
+											</a>	
+										</li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+										<li style="width: 24%;"><a href="#">男孩</a></li>
+									</ul>
+									</div>
+								</div>
+								
+								<div class="area-2">
+									<div class="specialM">
+										<h4>特色市场</h4>
+									</div>
+									<div class="specialM-content">  
+									<ul>
+										<li style="width: 33%;"><a href="#">全球购</a></li>
+										<li style="width: 33%;"><a href="#">极有家</a></li>
+										<li style="width: 33%;"><a href="#">阿里拍卖</a></li>
+										<li style="width: 33%;"><a href="#">极有家</a></li>
+										<li style="width: 33%;"><a href="#">极有家</a></li>
+										<li style="width: 33%;"><a href="#">极有家</a></li>
+										<li style="width: 33%;"><a href="#">极有家</a></li>
+										<li style="width: 33%;"><a href="#">极有家</a></li>
+										<li style="width: 33%;"><a href="#">极有家</a></li>
+										<li style="width: 33%;"><a href="#">极有家</a></li>
+										<li style="width: 33%;"><a href="#">极有家</a></li>
+									</ul>										                           
+								    </div>
+								</div> 
+									<div class="area-3">
+									<div class="aLi">
+										<h4>阿里APP</h4>
+									</div>
+									<div class="aLi-content">                                   
+									  <ul>
+									  	<li style="width: 33%;"><a href="#">淘宝</a></li>
+									  	<li style="width: 33%;"><a href="#">天猫</a></li>
+									  	<li style="width: 33%;"><a href="#">支付宝</a></li>
+									  	<li style="width: 33%;"><a href="#">支付宝</a></li>
+									    <li style="width: 33%;"><a href="#">支付宝</a></li>
+									    <li style="width: 33%;" class="li-hot">
+											<a href="#">
+												支付宝
+												<i class="hot"></i>
+											</a></li>
+									  	<li style="width: 33%;"><a href="#">支付宝</a></li>
+									  	<li style="width: 33%;"><a href="#">支付宝</a></li>
+									  	<li style="width: 33%;"><a href="#">支付宝</a></li>
+									  	<li style="width: 33%;"><a href="#">支付宝</a></li>
+										<li style="width: 33%;"><a href="#">支付宝</a></li>
+										<li style="width: 33%;"><a href="#">支付宝</a></li>
+										<li style="width: 33%;"><a href="#">支付宝</a></li>
+										<li style="width: 33%;"><a href="#">支付宝</a></li>
+										<li style="width: 33%;"><a href="#">支付宝</a></li>
+										<li style="width: 33%;"><a href="#">支付宝</a></li>
+										<li style="width: 33%;"><a href="#">支付宝</a></li>
+									  </ul>	
+									</div>
+								</div>
+								
+								<div class="area-4">
+									<div class="rec">
+										<h4>精彩推荐集</h4>
+									</div>
+									<div class="rec-content">   
+										<ul>
+											<li style="width: 49%;"><a href="#">余额宝</a></li>
+											<li style="width: 49%;"><a href="#">浏览器</a></li>
+											<li style="width: 49%;"><a href="#">浏览器</a></li>
+											<li style="width: 49%;"><a href="#">浏览器</a></li>
+											<li style="width: 49%;"><a href="#">浏览器</a></li>
+											<li style="width: 49%;"><a href="#">浏览器</a></li>
+										</ul>							
+									</div>
+								</div>!-->
+								
+								
+							</div>	
+						</li>
+					</ul>	
+				
+				</div>
+			</div> -->
+			
+		    <!-- 搜索区域 -->
+			<div class="search">
+				<div class="search-content wrap-content clearfix">
+					<div class="bigIcon">
+						<img src="img/searchArea/aa.jpg" >
+					</div>
+					
+					<div class="wholeSearch">
+						<div class="trueSearch">
+							<div class="search-top">
+								<div class="search-1 search-1-dropdown">
+										<span>&nbsp;&nbsp;&nbsp;&nbsp;宝贝</span>&nbsp;
+										<img src="img/topBar/triangle.svg" class="triangle-icon">						
+										<div class="search-1-dropdown-content">
+											<ul>
+												<li>&nbsp;&nbsp;&nbsp;&nbsp;天猫</li>
+												<li>&nbsp;&nbsp;&nbsp;&nbsp;店铺</li>
+												
+											</ul>
+										</div>	
+								</div>
+								<div class="search-2">
+									<input type="text" placeholder="2021时尚套装早秋" />
+								</div>
+								<div class="search-3">
+									<button>搜索</button>
+								</div>
+							</div>
+							<div class="search-bottom">
+								<a href="#">新款连衣裙</a>
+								<a href="#">墙纸</a>
+								<a href="#">墙纸</a>
+								<a href="#">墙纸</a>
+								<a href="#">墙纸</a>
+								<a href="#" style="color:#ff5000;">鞋子</a>
+								<a href="#">墙纸</a>
+								<a href="#">墙纸</a>
+								<a href="#">墙纸</a>
+								<a href="#">墙纸</a>
+								<a href="#">墙纸</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="code">
+						<div class="codeArea">
+							<p><a href="#">去领红包</a></p>
+							<img src="img/searchArea/code.png" >
+						</div>
+						
+					</div>
+					
+					
+				</div>
+			</div>
+		
+		    <!-- 主体部分：第一部分 -->
+		    <div class="main-1">
+		    	<h2 style="color: #ff6200;">主题市场</h2>
+				<ul class="special-ul">
+					<li><a href="#" style="color: #ff0036;">天猫</a></li>
+					<li><a href="#" style="color: #ff0036;">聚划算</a></li>
+					<li><a href="#"  style="color: #33c900;">天猫超市</a></li>
+				</ul>
+				<ul>
+					<li>|</li>
+				</ul>
+				<ul>
+					<li>司法拍卖</li>
+					<li>飞猪旅行</li>
+					<li>天天特卖</li>
+				</ul>
+				<ul>
+					<li>|</li>
+				</ul>
+				<ul>
+					<li>造点新货</li>
+					<li>苏宁易购</li>
+					<li>淘宝心选</li>
+					<li>智能生活</li>
+				</ul>
+		    </div>
+		
+		    <!-- 主体部分：第二部分 -->
+			<div class="main-2">
+				<!-- main2左侧区域 -->
+				<div class="main-2-l">
+					<div class="menu">
+						<ul class="menu-ul">
+							
+							<div class="menu-content">
+								<div class="menu-content-l">
+									<div class="menu-content-sort">
+										<h4>上装</h4>
+										<span>T恤</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+									</div>
+									<div class="menu-content-sort">
+										<h4>上装</h4>
+										<span>T恤</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+									</div>
+									<div class="menu-content-sort">
+										<h4>上装</h4>
+										<span>T恤</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+									</div>
+									<div class="menu-content-sort">
+										<h4>上装</h4>
+										<span>T恤</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+									</div>
+									<div class="menu-content-sort">
+										<h4>上装</h4>
+										<span>T恤</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+									</div>
+									<div class="menu-content-sort">
+										<h4>上装</h4>
+										<span>T恤</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+									</div>
+									<div class="menu-content-sort">
+										<h4>上装</h4>
+										<span>T恤</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+									</div>
+								    <div class="menu-content-sort">
+								    	<h4>上装</h4>
+								    	<span>T恤</span>
+								    	<span>裤子</span>
+								    	<span>裤子</span>
+								    	<span>裤子</span>
+								    	<span>裤子</span>
+								    </div>
+									<div class="menu-content-sort">
+										<h4>上装</h4>
+										<span>T恤</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+									</div>
+									<div class="menu-content-sort">
+										<h4>上装</h4>
+										<span>T恤</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+									</div>
+									<div class="menu-content-sort">
+										<h4>上装</h4>
+										<span>T恤</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+										<span>裤子</span>
+									</div>
+								</div>
+								<div class="menu-content-r">
+									<h4>猜你喜欢</h4>	
+									<div class="like-sort-item">
+										<a href="#">
+											<p><img src="img/main2/like-sort-item1.jpg" ></p>
+											<span>卫衣</span>
+										</a>
+										<a href="#">
+											<p><img src="img/main2/like-sort-item1.jpg" ></p>
+											<span>卫衣</span>
+										</a>
+										<a href="#">
+											<p><img src="img/main2/like-sort-item1.jpg" ></p>
+											<span>卫衣</span>
+										</a>
+										<a href="#">
+											<p><img src="img/main2/like-sort-item1.jpg" ></p>
+											<span>卫衣</span>
+										</a>
+										<a href="#">
+											<p><img src="img/main2/like-sort-item1.jpg" ></p>
+											<span>卫衣</span>
+										</a>
+										<a href="#">
+											<p><img src="img/main2/like-sort-item1.jpg" ></p>
+											<span>卫衣</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="slide">
+						<!-- 第一个轮播图 -->
+						<div id="first-banner-container">
+							<!-- 轮播图中的所有图片 -->
+							<div id="first-banner-wrap" style="left: -520px;">
+								<img src="./img/First_banner_05.jpg" >
+								<img src="./img/First_banner_01.jpg" >
+								<img src="./img/First_banner_02.jpg" >
+								<img src="./img/First_banner_03.jpg" >
+								<img src="./img/First_banner_04.jpg" >
+								<img src="./img/First_banner_05.jpg" >
+								<img src="./img/First_banner_01.jpg" >
+							</div>
+							<!-- 轮播图中的小圆点 -->
+							<div id="first-banner-bots">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<!-- 轮播图中的上/下一张图片
+							<!-- 字符实体：&lt;表示 “<”-->
+							<span class="arrow arrow-left">&lt;</span>
+							<span class="arrow arrow-right">&gt;</span>
+						</div>
+						<div class="slide-title">
+							<span class="tmall" >TMALL天猫</span>
+							<span style="color: #999999; font-size: 12px;">理想生活上天猫</span>
+							<div class="div-slide-index"><span style="color: #ff1648;" id="slide-index">1</span>/5</div>
+							<!-- <span style="color: #ff1648;" id="slide-index">1</span>/5 -->
+						</div>
+						<!-- 第二个轮播图 -->
+						<div id="second-banner-container">
+							<!-- 轮播图中的所有图片 -->
+							<div id="second-banner-wrap" style="left: -520px;">
+								<img src="./img/SecondBanner/5.png" >
+								<img src="./img/SecondBanner/1.png" >
+								<img src="./img/SecondBanner/2.png" >
+								<img src="./img/SecondBanner/3.png" >
+								<img src="./img/SecondBanner/4.png" >
+								<img src="./img/SecondBanner/5.png" >
+								<img src="./img/SecondBanner/1.png" >
+							</div>
+							<!-- 轮播图中的小圆点 -->
+							<!-- <div id="first-banner-bots">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div> -->
+							<!-- 轮播图中的上/下一张图片
+							<!-- 字符实体：&lt;表示 “<”-->
+							<span class="arrow1 arrow1-left" >&lt;</span>
+							<span class="arrow1 arrow1-right" >&gt;</span>
+						</div>
+					</div>
+					<div class="bigPics">
+						<img src="./img/main2/bigPic_1.jpg" >
+						<h5>今日热卖</h5>
+						<img src="./img/main2/bigPic_2.jpg" >
+					</div>
+				</div>
+				<!-- main2右侧区域 -->
+				<div class="main-2-r">
+					<div class="members">
+						<div class="avator">
+							<img src="img/main2/avator.jpg" >
+						</div>
+						<p class="sayHi">Hi! 你好</p>												
+						<p class="rank">
+							<a href="#">
+							<span class="rank-icon"></span>领金币抵钱	
+							</a>
+							<a href="#">
+							<span class="rank-icon"></span>会员俱乐部	
+							</a>
+						</p>
+						<div class="three-btns">
+							<button type="button" style="width: 92px;">登录</button>
+							<button type="button" style="width: 75px;">注册</button>
+							<button type="button" style="width: 75px">开店</button>
+						</div>
+					</div>
+					<div class="tip">
+						<img src="img/main2/tip.jpg" >
+					</div>
+					<div class="notice">
+						<ul>
+							<li><a href="#" style="border-bottom: 2px solid #ff4400;">公告</a></li>
+							<li><a href="#">规则</a></li>
+							<li><a href="#">安全</a></li>
+							<li><a href="#">公益</a></li>
+							<li><a href="#">千牛</a></li>
+						</ul>
+						<div class="notice-content">
+							<div class="notice-1" style="display: block;">&nbsp;&nbsp;关于全面降低淘宝网卖家收款服务费率的公告</div>
+							<div class="notice-2">&nbsp;&nbsp;新增淘宝网汽配行业</div>
+							<div class="notice-3">&nbsp;&nbsp;魔豆妈妈公益项目</div>
+							<div class="notice-4">&nbsp;&nbsp;阿里公益论坛</div>
+							<div class="notice-5">&nbsp;&nbsp;千牛头条</div>
+						</div>
+					</div>
+					<!-- 服务分类：充话费、旅行... -->
+					<div class="service-sort">
+						<ul class="service-sort-item">
+							<li class="special-li">
+								<a href="#">
+									<img src="img/main2/phone.svg" >
+									<p>充话费</p>
+								</a>
+								<div class="item-content">
+									我是充话费中的内容...
+								</div>
+							</li>
+							
+							<li class="special-li">
+								<a href="#">
+									<img src="img/main2/pig.svg" >
+									<p>旅行</p>
+								</a>
+								<div class="item-content">
+									我是旅行中的内容...
+								</div>
+							</li>
+							<li class="special-li">
+								<a href="#">
+									<img src="img/main2/car.svg" >
+									<p>车险</p>
+								</a>
+								<div class="item-content">
+									我是车险中的内容...
+								</div>
+							</li>
+							<li class="special-li">
+								<a href="#">
+									<img src="img/main2/game.svg" >
+									<p>游戏</p>
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<img src="img/main2/phone.svg" >
+									<p>彩票</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/main2/pig.svg" >
+									<p>电影</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/main2/car.svg" >
+									<p>酒店</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/main2/game.svg" >
+									<p>理财</p>
+								</a>
+							</li>
+						</ul>
+						
+					</div>
+					<!-- 阿里APP分类 -->
+					<div class="app-sort">
+						<div class="app-sort-top">
+							<h3>&nbsp;&nbsp;阿里APP</h3>
+							<div class="app-more">更多&nbsp;&gt;</div>
+						</div>
+						<div class="app-sort-bottom">
+							<div class="app-sort-item">
+								<div class="app-item-content">
+									<img src="img/main2/app-sort-code.png" style="width: 60px;height: 60px; margin-top: 10px;" >
+									<p>扫一扫淘宝</p>	
+								</div>
+								<img src="img/main2/taobao.png" >
+							</div>
+							<div class="app-sort-item">
+								<div class="app-item-content">
+									<img src="img/main2/app-sort-code.png" style="width: 60px;height: 60px; margin-top: 10px;" >
+									<p>扫一扫天猫</p>	
+								</div>
+								<img src="img/main2/tianMao.png" >
+							</div>
+							<div class="app-sort-item">
+								<div class="app-item-content">
+									<img src="img/main2/app-sort-code.png" style="width: 60px;height: 60px; margin-top: 10px;" >
+									<p>扫一扫支付宝</p>	
+								</div>
+								<img src="img/main2/zhiFuBao.png" >
+							</div>
+							<div class="app-sort-item">
+								<div class="app-item-content">
+									<img src="img/main2/app-sort-code.png" style="width: 60px;height: 60px; margin-top: 10px;" >
+									<p>扫一扫钉钉</p>	
+								</div>
+								<img src="img/main2/dingDing.png" >
+							</div>
+							<div class="app-sort-item">
+								<div class="app-item-content">
+									<img src="img/main2/app-sort-code.png" style="width: 60px;height: 60px; margin-top: 10px;" >
+									<p>扫一扫淘小铺</p>	
+								</div>
+								<img src="img/main2/taoXiaoPu.png" >
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		    
+			<!-- 主体部分：有好货 -->
+		   <div class="goods">
+		   	<div class="goods-title">
+		   		<h2>&nbsp;&nbsp;有好货</h2>
+		   		<img src="img/goods/goods-icon.png" >
+		   	</div>
+		   	<!-- 商品填充 -->
+		   	<div class="goods-list clearfix">
+		   		<div class="goods-item goods-item1">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   	</div>
+		   	<div class="goods-list clearfix">
+		   		<div class="goods-item goods-item1">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   	</div>
+		   	<div class="goods-list clearfix">
+		   		<div class="goods-item goods-item1">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   	</div>
+		   	<div class="goods-list clearfix">
+		   		<div class="goods-item goods-item1">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   		<div class="goods-item goods-item2">
+		   			<img src="img/goods/item1.png" >
+		   			<div class="goods-desc">
+		   				<h4>同车同伴车载头枕腰靠</h4>
+		   				<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+		   			</div>
+		   		</div>
+		   	</div>
+		   	
+		   </div>
+			
+			<!-- 主体部分：猜你喜欢-->
+			<div class="goods">
+				<div class="goods-title">
+					<h2>&nbsp;&nbsp;猜你喜欢</h2>
+					<img src="img/goods/goods-icon.png" >
+				</div>
+				<!-- 商品填充 -->
+				<div class="goods-list clearfix">
+					<div class="goods-item goods-item1">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+				</div>
+				<div class="goods-list clearfix">
+					<div class="goods-item goods-item1">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+				</div>
+				<div class="goods-list clearfix">
+					<div class="goods-item goods-item1">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+				</div>
+				<div class="goods-list clearfix">
+					<div class="goods-item goods-item1">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+					<div class="goods-item goods-item2">
+						<img src="img/goods/item1.png" >
+						<div class="goods-desc">
+							<h4>同车同伴车载头枕腰靠</h4>
+							<div class="desc">一路行车，如果是不适相伴车载头枕腰靠</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		    
+			<!-- 侧边栏 -->
+			<div class="sidebar" id="sidebar">
+				<a  id="sidebar-item1" class="sidebar-item1-active">品质<br/>好货</a>
+				<a  id="sidebar-item2" >猜你<br/>喜欢</a>
+				<a  id="returnTop" style="display: none;">
+						&and;<br/>顶部
+				</a>
+				<a  >&nbsp;<br/>反馈</a>
+				<a  id="sidebar-item5">暴恐<br/>举报</a>
+			</div>
+			
+		</div>
+		
+		
+		
+		<script src="./js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/main2-slide.js"></script>
+		<script src="js/main2-slide2.js"></script>
+		<script src="js/main2-notice.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			
+			
+		</script>
+	</body>
+</html>
